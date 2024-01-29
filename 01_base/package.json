@@ -1,0 +1,16 @@
+{
+  "name": "rollup_study",
+  "version": "1.0.0",
+  "description": "Rollup 是一个用于 JavaScript 的模块打包器，它将小段代码编译成更大、更复杂的代码，比如库或应用程序。它使用 JavaScript ES6 修订版中包含的新的标准化代码模块格式，而不是以前的特殊解决方案，如 CommonJS 和 AMD。ES 模块让您可以自由、无缝地组合您喜爱的库中最有用的单个函数。这最终将在任何地方都可以本地实现，但 Rollup 现在就允许您这样做",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.1.0"
+  }
+}
